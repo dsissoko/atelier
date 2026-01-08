@@ -23,7 +23,7 @@ Il apporte **le cadre nécessaire pour converger, stabiliser et finaliser** un p
 This project is documented in French 🇫🇷 by default.  
 An auto-translated English version is available here:
 
-[👉 English (auto-translated by Google)](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/your-org/atelier)
+[👉 English (auto-translated by Google)](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/atelier)
 
 ---
 
