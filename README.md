@@ -20,11 +20,6 @@ Atelier fournit une **ossature de travail** permettant aux humains et aux agents
 Atelier ne cherche pas à accélérer artificiellement le développement.  
 Il apporte **le cadre nécessaire pour converger, stabiliser et finaliser** un produit logiciel avec des agents.
 
-This project is documented in French 🇫🇷 by default.  
-An auto-translated English version is available here:
-
-[👉 English (auto-translated by Google)](https://translate.google.com/translate?sl=auto&tl=en&u=https://github.com/dsissoko/atelier)
-
 ---
 
 ## 📋 Fonctionnalités clés
