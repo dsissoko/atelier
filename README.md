@@ -1,5 +1,6 @@
 # Atelier | ![Logo](logo.png)
 Template de projet pour aller au-delà du prototype avec un agent.
+
 **Atelier** est un **template de projet agent-first** pour construire, faire évoluer et finaliser un produit logiciel, en s’appuyant sur un **cadre de travail structurant** et une **documentation persistante**.
 
 > **Aller au-delà du prototype avec un agent.**
