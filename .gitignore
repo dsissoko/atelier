@@ -3,3 +3,6 @@
 .env.*
 .DS_Store
 __pycache__/
+.codex/log/
+.codex/sessions/
+.codex/auth.json
