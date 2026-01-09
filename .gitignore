@@ -8,4 +8,5 @@ __pycache__/
 .codex/auth.json
 .codex/config.toml
 .codex/history.jsonl
+.codex/version.json
 *Zone.Identifier
