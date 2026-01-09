@@ -86,6 +86,11 @@ git clone https://github.com/your-org/atelier.git
 > ℹ️ Il fournit un **cadre de travail** dans lequel une stack, un template ou une infrastructure peuvent être intégrés.  
 > ℹ️ L’agent est un **opérateur**, pas la source de vérité.
 
+## 🧭 Onboarding (humain & agent)
+
+Point d’entrée unique : `docs/START-HERE.md`  
+Règles projet (Constitution Speckit) : `/.specify/memory/constitution.md`
+
 ## 🗺️ Roadmap
 
 ### 🔧 À venir
@@ -97,4 +102,3 @@ git clone https://github.com/your-org/atelier.git
 - Support avancé de la reprise multi-agents
 
 📫 Maintenu par [@dsissoko](https://github.com/dsissoko) — contributions bienvenues.
-

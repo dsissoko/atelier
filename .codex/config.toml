@@ -1,0 +1,45 @@
+# Règle globale : tout ton home est "untrusted" par défaut
+[projects."/home/david"]
+trust_level = "untrusted"
+
+# Exceptions : les repos où tu acceptes que Codex soit plus “permissif”
+[projects."/home/david/projets/spec2code/atelier"]
+trust_level = "trusted"
+
+[notice]
+hide_gpt-5.1-codex-max_migration_prompt = true
+
+[notice.model_migrations]
+"gpt-5.1-codex-max" = "gpt-5.2-codex"
+
+[features]
+web_search_request = true
+
+[mcp_servers.context7]
+#args = ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
+args = ["-y", "@upstash/context7-mcp"]
+command = "npx"
+startup_timeout_sec = 10
+tool_timeout_sec = 10
+
+[mcp_servers.snyk-security]
+command = "/usr/local/bin/snyk"
+args = ["mcp", "-t", "stdio"]
+startup_timeout_sec = 60
+tool_timeout_sec = 60
+
+[mcp_servers.github]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-github"]
+env_vars = ["GITHUB_PERSONAL_ACCESS_TOKEN"]
+startup_timeout_sec = 60
+tool_timeout_sec = 60
+
+[mcp_servers.postgres]
+command = ".venv/bin/postgres-mcp"
+args = ["--access-mode=unrestricted"]
+startup_timeout_sec = 60
+tool_timeout_sec = 60
+
+[mcp_servers.postgres.env]
+DATABASE_URI = "postgresql://appuser:changeme@127.0.0.1:5432/fullstack_db"
