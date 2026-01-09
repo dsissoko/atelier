@@ -10,3 +10,4 @@ __pycache__/
 .codex/history.jsonl
 .codex/version.json
 *Zone.Identifier
+docs/temp/
