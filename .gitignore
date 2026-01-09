@@ -6,3 +6,6 @@ __pycache__/
 .codex/log/
 .codex/sessions/
 .codex/auth.json
+.codex/config.toml
+.codex/history.jsonl
+*Zone.Identifier

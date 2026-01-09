@@ -1,8 +1,8 @@
-# Règle globale : tout ton home est "untrusted" par défaut
+# Exemple de configuration Codex (sans secrets)
+
 [projects."/home/david"]
 trust_level = "untrusted"
 
-# Exceptions : les repos où tu acceptes que Codex soit plus “permissif”
 [projects."/home/david/projets/spec2code/atelier"]
 trust_level = "trusted"
 
@@ -16,7 +16,6 @@ hide_gpt-5.1-codex-max_migration_prompt = true
 web_search_request = true
 
 [mcp_servers.context7]
-#args = ["-y", "@upstash/context7-mcp", "--api-key", "YOUR_API_KEY"]
 args = ["-y", "@upstash/context7-mcp"]
 command = "npx"
 startup_timeout_sec = 10
@@ -42,4 +41,4 @@ startup_timeout_sec = 60
 tool_timeout_sec = 60
 
 [mcp_servers.postgres.env]
-DATABASE_URI = "postgresql://appuser:changeme@127.0.0.1:5432/fullstack_db"
+DATABASE_URI = "${DATABASE_URI}"
